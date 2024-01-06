@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5BB9C1;
+}
+.cen-box {
+    margin-top: 40px;
+    height: 550px;
+    width: 1050px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* wwwwwwwwwwwwwwwwwwwwwwwwww */
+
+.top {
+    width: 100%;
+    height: 15%;
+    background-color: #3D5B99;
+    display: flex;
+    border-radius: 15px 15px 0px 0px;
+}
+.left {
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 35px;
+}
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    color: white;
+    padding-left: 30px;
+}
+
+.right>.email {
+    padding-left: 10px;
+    margin-top: -17px;
+}
+.right>.password {
+    padding-left: 10px;
+}
+.right>.login {
+    width: 50px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.login>button {
+    width: 80px;
+    height: 22px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.login>button>a {
+    color: 3D5B99;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+.main {
+    width: 100%;
+    height: 85%;
+    background-color: #EEF1F5;
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.main-left {
+    width: 50%;
+    padding-left: 35px;
+
+}
+.left1 {
+     display: flex;
+}
+.left1>h2 {
+    margin-top: 15%;
+}
+
+
+.left2 {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+.left2>img {
+    border-radius: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.left2>h4 {
+    margin-right: 5px;
+}
+
+.left3 {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.left3>img {
+    border-radius: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.left3>h4 {
+    margin-right: 5px;
+}
+
+
+.left4 {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.left4>img {
+    border-radius: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.left4>h4 {
+    margin-right: 5px;
+}
+
+
+
+/* wwwwwwwwwwwwwwwwwwwww */
+
+
+
+
+.main-right {
+    width: 50%;
+    padding-left: 15px;
+}
+.signup {
+    padding-top: 30px;
+}
+
+.name {
+    margin-top: 22px;
+}
+.name>input {
+    height: 30px;
+    width: 230px;
+}
+.name>input:placeholder-shown{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.phone {
+    margin-top: 10px;
+}
+.phone>input {
+    height: 30px;
+    width: 460px;
+}
+.phone>input:placeholder-shown{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.new-password {
+    margin-top: 10px;
+}
+.new-password>input {
+    height: 30px;
+    width: 460px;
+}
+.new-password>input:placeholder-shown{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.birth-day {
+    margin-top: 10px;
+}
+
+.birth-date {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.birth-date>.para>a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.radio>.male {
+    margin-right: 15px;
+}
+
+
+.terms {
+    margin-top: 10px;
+
+}
+
+.signup-button {
+    margin-top: 10px;
+}
+.signup-button>button {
+    width: 140px;
+    height: 30px;
+    background-color: #3D5B99;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.signup-button>button>a {
+    text-decoration: none;
+}
+.signup-button>button>a>h3 {
+    text-decoration: none;
+    color: white;
+}
